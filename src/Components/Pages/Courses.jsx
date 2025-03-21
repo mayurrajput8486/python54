@@ -30,10 +30,10 @@ const Courses = () => {
                             <h5 className="card-title">MERN STACK</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div className='text-center'>
-                                <NavLink to="/register" className="btn btn-primary mb-2 w-100">Register</NavLink>
+                                <NavLink to="/register" className='btn btn-primary w-100 mb-2'>Register</NavLink>
                             </div>
                             <div className='text-center'>
-                                <a href="" className="btn btn-warning w-100" target='_blank' download>Syllabus</a>
+                                <a href="./public/Syllabus/da.pdf" target='_blank' className="btn btn-warning w-100" download>Syllabus</a>
                             </div>
                         </div>
                     </div>

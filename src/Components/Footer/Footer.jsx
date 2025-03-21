@@ -16,14 +16,14 @@ const Footer = () => {
           <div className='fs-4 fw-bold'>
             <div className='text-start d-flex'>
               <div className='me-3'>
-                < i class="bi bi-pin-map"></i>
+                < i className="bi bi-pin-map"></i>
               </div>
               <div>
                 ABC, Office No.306, 3rd Floor, Krishnai Plaza, Canal Rd, Karve Nagar, Pune, Maharashtra 411052
               </div>
             </div>
             <div className='text-start'>
-              <span className='me-3'><i class="bi bi-telephone-outbound"></i></span>
+              <span className='me-3'><i className="bi bi-telephone-outbound"></i></span>
               +91 869-869-3458
             </div>
           </div>

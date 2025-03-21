@@ -13,31 +13,31 @@ const Navbar = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item me-3">
                                 <NavLink className="nav-link text-light fs-5 btn btn-outline-secondary" aria-current="page" to="/home">
-                                <i class="bi bi-house text-light"></i><br/>
+                                <i className="bi bi-house text-light"></i><br/>
                                 Home
                                 </NavLink>
                             </li>
                             <li className="nav-item me-3">
                                 <NavLink className="nav-link text-light fs-5 btn btn-outline-secondary" to="/about">
-                                <i class="bi bi-amazon"></i><br/>
+                                <i className="bi bi-amazon"></i><br/>
                                 About
                                 </NavLink>
                             </li>
                             <li className="nav-item me-3">
                                 <NavLink className="nav-link text-light fs-5 btn btn-outline-secondary" to="/register">
-                                <i class="bi bi-credit-card-fill"></i><br/>
+                                <i className="bi bi-credit-card-fill"></i><br/>
                                 Register
                                 </NavLink>
                             </li>
                             <li className="nav-item me-3">
                                 <NavLink className="nav-link text-light fs-5 btn btn-outline-secondary" to="/admin">
-                                <i class="bi bi-incognito"></i><br/>
+                                <i className="bi bi-incognito"></i><br/>
                                 Admin
                                 </NavLink>
                             </li>
                             <li className="nav-item me-3">
                                 <NavLink className="nav-link text-light fs-5 btn btn-outline-secondary" to="/contact">
-                                <i class="bi bi-telephone"></i><br/>
+                                <i className="bi bi-telephone"></i><br/>
                                 Contact
                                 </NavLink>
                             </li>
