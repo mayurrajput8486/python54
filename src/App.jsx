@@ -11,6 +11,7 @@ import Contact from './Components/Pages/Contact.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './Components/Pages/ErrorPage.jsx'
 import Footer from './Components/Footer/Footer.jsx'
+import Studetails from './Components/Pages/Studetails.jsx'
 function App() {
  
   return (
@@ -24,6 +25,7 @@ function App() {
                   <Route path='/register' element={<Register/>}/>
                   <Route path='/admin' element={<Admin/>}/>
                   <Route path='/contact' element={<Contact/>}/>
+                  <Route path='/studetails' element={<Studetails/>}/>
                   <Route path='*' element={<ErrorPage/>}/>
               </Routes>
         </BrowserRouter>

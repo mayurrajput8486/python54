@@ -1,22 +1,17 @@
 {
   "students": [
     {
-      "id": "1",
-      "name": "Virat",
-      "email": "virat@gmail.com"
-    },
-    {
-      "id": "575d",
+      "id": "4d58",
       "first_name": "Virat",
       "last_name": "Kohli",
-      "address": "",
-      "gender": null,
-      "state": "",
-      "city": "",
-      "dob": "",
-      "pincode": "",
-      "course": "",
-      "email": ""
+      "address": "Karve Nagar pUne",
+      "gender": "male",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "22 March 2025",
+      "pincode": "411052",
+      "course": "React",
+      "email": "vk@gmail.com"
     }
   ]
 }

@@ -11,7 +11,6 @@ const Register = () => {
     alert('Data Added !!!')
     reset()
   }
-
   return (
     <div>
       <section className="h-100 bg-dark">
