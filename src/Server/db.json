@@ -12,6 +12,19 @@
       "pincode": "411052",
       "course": "React",
       "email": "vk@gmail.com"
+    },
+    {
+      "first_name": "ROHIT",
+      "last_name": "Sharma",
+      "address": "Warje",
+      "gender": "male",
+      "state": "UP",
+      "city": "Kanpur",
+      "dob": "15 March 1985",
+      "pincode": "411060",
+      "course": "React",
+      "email": "rohitsharma@gmail.com",
+      "id": "72ff"
     }
   ]
 }

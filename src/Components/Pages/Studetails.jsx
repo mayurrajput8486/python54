@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const Studetails = () => {
     const [students,setStudents] = useState([])
@@ -56,8 +56,8 @@ const Studetails = () => {
                                 <td>{stu.pincode}</td>
                                 <td>{stu.email}</td>
                                 <td>
-                                    <button className='btn btn-warning'>Edit</button>
-                                    <button className='btn btn-danger'>Delete </button>
+                                    <NavLink to={`/update/${stu.id}`}><button className='btn btn-warning'>Edit</button></NavLink>
+                                    <NavLink to={`/delete/${stu.id}`}><button className='btn btn-danger'>Delete </button></NavLink>
                                 </td>
                             </tr>
                         )

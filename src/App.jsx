@@ -12,6 +12,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './Components/Pages/ErrorPage.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import Studetails from './Components/Pages/Studetails.jsx'
+import Updatestu from './Components/Pages/Updatestu.jsx'
+import Deletestu from './Components/Pages/Deletestu.jsx'
 function App() {
  
   return (
@@ -26,6 +28,8 @@ function App() {
                   <Route path='/admin' element={<Admin/>}/>
                   <Route path='/contact' element={<Contact/>}/>
                   <Route path='/studetails' element={<Studetails/>}/>
+                  <Route path='/update/:students' element={<Updatestu/>}/>
+                  <Route path='/delete/:students' element={<Deletestu/>}/>
                   <Route path='*' element={<ErrorPage/>}/>
               </Routes>
         </BrowserRouter>
