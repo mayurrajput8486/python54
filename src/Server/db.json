@@ -14,17 +14,30 @@
       "email": "vk@gmail.com"
     },
     {
-      "first_name": "ROHIT",
-      "last_name": "Sharma",
-      "address": "Warje",
+      "id": "1d98",
+      "first_name": "HArdik",
+      "last_name": "Pandya",
+      "address": "Karve Nagar",
       "gender": "male",
-      "state": "UP",
-      "city": "Kanpur",
-      "dob": "15 March 1985",
-      "pincode": "411060",
-      "course": "React",
-      "email": "rohitsharma@gmail.com",
-      "id": "72ff"
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "15 April 1990",
+      "pincode": "411025",
+      "course": "Angular",
+      "email": "hp@gmail.com"
+    },
+    {
+      "id": "8510",
+      "first_name": "Rohit",
+      "last_name": "Sharma",
+      "address": "Mumbai",
+      "gender": "male",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "26 Jan 1990",
+      "pincode": "411025",
+      "course": "Python",
+      "email": "rs@gmail.com"
     }
   ]
 }

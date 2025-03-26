@@ -5,6 +5,8 @@ import { NavLink, useNavigate } from 'react-router-dom'
 const Studetails = () => {
     const [students,setStudents] = useState([])
     const navigate = useNavigate()
+    const [search, setSearch] = useState('')
+
     const getDetails = async() =>{
         const res = await axios.get('http://localhost:8005/students')
         //console.log(res)
@@ -21,9 +23,23 @@ const Studetails = () => {
         navigate('/admin')
     }
 
+    const searchHandler = students.filter((stu)=>{
+        return stu.course.toLowerCase().includes(search.toLowerCase()) 
+        //|| stu.first_name.toLowerCase().includes(search.toLowerCase())
+    })
+
   return (
     <div>
         <h1 className='text-center mb-3'>Students Details :</h1>
+        <div className='w-50 mx-auto mt-5 mb-3'>
+            <input 
+            type='text'
+            placeholder='Enter Course Name'
+            className='form-control'
+            value={search}
+            onChange={(e)=>setSearch(e.target.value)}
+            />
+        </div>
         <table className='table mb-4'>
             <thead>
                 <tr>
@@ -42,7 +58,7 @@ const Studetails = () => {
             </thead>
             <tbody>
                 {
-                    students.map((stu, index)=>{
+                    searchHandler.map((stu, index)=>{
                         return(
                             <tr key={index}>
                                 <td>{index + 1}</td>
